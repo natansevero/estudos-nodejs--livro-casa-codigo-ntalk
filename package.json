@@ -1,0 +1,33 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "description": "Node talk - Agenda de contatos",
+  "private": false,
+  "scripts": {
+    "start": "node server",
+    "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha test/*.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-redis": "^3.2.0",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "ejs": "~0.8.5",
+    "express": "~4.0.0",
+    "express-load": "^1.1.15",
+    "express-session": "^1.14.2",
+    "forever-monitor": "^1.7.1",
+    "hiredis": "^0.5.0",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.7.5",
+    "redis": "^2.6.3",
+    "session-memory-store": "^0.2.2",
+    "socket.io": "^1.7.2",
+    "socket.io-redis": "^2.0.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "supertest": "*"
+  }
+}
